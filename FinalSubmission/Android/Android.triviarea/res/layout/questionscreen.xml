@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_gravity="fill"
+  android:layout_height="fill_parent" 
+  android:layout_width="fill_parent">
+  
+  	<!-- Question Section -->
+  	
+  	<TextView
+  	  android:id="@+id/question"
+  	  android:text="Question 1: This is pretend questions text."
+	  android:textSize="16sp"
+  	  android:lines="4"
+	  android:layout_height="wrap_content" 
+	  android:layout_width="fill_parent" android:gravity="center"/>
+  
+	<LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_gravity="fill"
+  	  android:layout_width="fill_parent"
+  	  android:layout_height="fill_parent" 
+  	  android:gravity="center">
+  	
+  		<LinearLayout
+  		  android:orientation="vertical"
+  		  android:layout_gravity="center"
+  		  android:layout_height="fill_parent" 
+  		  android:gravity="center|left" 
+  		  android:layout_weight="1" 
+  		  		android:layout_marginTop="5px"
+		android:layout_marginBottom="5px" 
+  		  android:layout_width="fill_parent">
+  		  
+  			<LinearLayout 
+  			android:id="@+id/linearLayout1" 
+  			android:orientation="horizontal" 
+  			android:layout_height="fill_parent" 
+  			android:layout_weight=".25" 
+  			android:layout_width="fill_parent">
+  			
+  				<!-- Eventual Timer Progress Bar -->
+  			
+  				<TextView 
+  				android:id="@+id/textView1" 
+  				android:layout_weight="1" 
+  				android:layout_height="fill_parent" 
+  				android:text="Filler" 
+  				android:gravity="center" 
+  				android:layout_width="fill_parent">
+  				</TextView>
+  				
+  				<!-- Time remaining area -->
+  				
+  				<TextView android:layout_weight="1" 
+  				android:layout_height="fill_parent" 
+  				android:text="Time" 
+  				android:gravity="center" 
+  				android:layout_width="fill_parent" 
+  				android:id="@+id/secondsRemaining">
+  				</TextView>
+  				
+  			</LinearLayout>
+  			
+  			<LinearLayout
+  			  android:layout_weight="1"
+  			  android:orientation="vertical" 
+  			  android:layout_height="fill_parent" 
+  			  android:layout_width="fill_parent">
+  			  
+  			<!-- Score Information -->
+  			  
+  			<TextView
+  			  android:text="Countdown Score"
+  			  android:layout_weight="1"
+	    	  android:layout_width="fill_parent" 
+	    	  android:layout_height="fill_parent" 
+	    	  android:gravity="center" 
+	    	  android:id="@+id/potentialScore"/>
+  	
+  	   		<TextView
+  			  android:text="Player Score"
+  			  android:layout_weight="1"
+	    	  android:layout_width="fill_parent" 
+	    	  android:layout_height="fill_parent" 
+	    	  android:gravity="center" 
+	    	  android:id="@+id/playerScore"/>
+  			  
+  			</LinearLayout>
+  	    </LinearLayout>
+  	    
+  	    <!-- Buttons -->
+  	    
+  		<LinearLayout 
+  		android:orientation="vertical" 
+  		android:layout_weight="1" 
+  		android:id="@+id/linearLayout2" 
+  		android:layout_height="fill_parent"
+		android:gravity="center" 
+		android:layout_marginTop="5px"
+		android:layout_marginBottom="5px" 
+		android:layout_width="fill_parent">
+		
+  		
+  			<Button 
+  			android:text="Answer 1" 
+  			android:gravity="center" 
+  			android:id="@+id/ans1" 
+  			android:layout_width="fill_parent" 
+  			android:layout_height="wrap_content" 
+  			android:layout_weight="1" 
+  			android:visibility="gone">
+  			</Button>
+  			
+  			<Button 
+  			android:text="Answer 2" 
+  			android:id="@+id/ans2" 
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:layout_weight="1"
+  			android:visibility="gone">
+  			</Button>
+  			
+  			<Button 
+  			android:text="Answer 3" 
+  			android:layout_gravity="center" 
+  			android:id="@+id/ans3" 
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:layout_weight="1"
+  			android:visibility="gone">
+  			</Button>
+  			
+  			<Button 
+  			android:text="Answer 4" 
+  			android:layout_gravity="bottom" 
+  			android:id="@+id/ans4" 
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:layout_weight="1"
+  			android:visibility="gone">
+  			</Button>
+  		</LinearLayout>  
+  	</LinearLayout>
+</LinearLayout>

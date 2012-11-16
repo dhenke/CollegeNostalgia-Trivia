@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<!-- titles -->
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_height="wrap_content">
+		
+		<TextView 
+			android:text=":Category:" 
+			android:layout_weight="1"
+			android:gravity="center" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="25dip" android:id="@+id/leaderboardcategory"/>
+		
+		<TextView 
+			android:text="Leaderboard" 
+			android:layout_weight="1"
+			android:gravity="center" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="25dip" />
+			
+		<TextView 
+			android:text=":Date:" 
+			android:layout_weight="1"
+			android:gravity="center" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="16dip" android:id="@+id/todayDate"/>
+ 
+
+	</LinearLayout>
+
+	<!-- all columns -->
+	<LinearLayout 
+		android:layout_height="fill_parent"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent">
+
+		<!-- rank -->
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:orientation="vertical" 
+			android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+		<TextView 
+			android:text="01\n02\n03\n04\n05\n" 
+			
+			android:gravity="left" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" />
+			
+		</LinearLayout>
+
+		<!-- username -->
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:orientation="vertical" 
+			android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<TextView 
+			android:text="user01\nfakeuserftw\nhellowWorld\nWelcome You\nd3stroyer\nuser02341\nuser041231\nuser012341\nuser23421\nuser012342\n" 
+			
+			android:gravity="left" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:id="@+id/leaderboarduserstring"/>
+
+		</LinearLayout>
+		
+		<!-- score -->
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:orientation="vertical" 
+			android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<TextView 
+			android:text="12345\n123456\n7645\n65482\n9999\n150000\n149999\n1111\n65482\n75984\n" 
+			
+			android:gravity="left" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" android:id="@+id/leaderboardscorestring"/>
+
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+</LinearLayout>

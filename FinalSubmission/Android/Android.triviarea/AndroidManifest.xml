@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="android.triviarea.main"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+      <application android:icon="@drawable/icon" android:label="@string/app_name">
+      
+      	<activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".MainScreen">
+            <intent-filter>
+                <action android:name="android.triviarea.main.MainScreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           
+        <activity android:name=".FriendScreen">
+            <intent-filter>
+                <action android:name="android.triviarea.main.FriendScreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+        <activity android:name=".StartGame"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.StartGame" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name=".LoadQuestionsScreen"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.LoadQuestionsScreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CategoryScreen"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.CategoryScreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        <activity android:name=".LeaderboardCategoryScreen"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.LeaderboardCategoryScreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name=".LeaderboardScreen"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.LeaderboardScreen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.triviarea.main.Register" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+        
+        <activity android:name=".EndGame"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.EndGame" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        <activity android:name=".AutoPasswordReset"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.AutoPasswordReset" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+
+        <activity android:name=".ManualPasswordReset"
+        android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.triviarea.main.ManualPasswordReset" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+
+    </application>
+    
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET"/> 
+	
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/friend_screen_mainlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_weight=".2"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+			android:layout_height="fill_parent"></ListView>
+	</LinearLayout>
+	<LinearLayout android:layout_weight=".9"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+
+		<Button android:text="Delete friends" android:layout_weight=".5"
+			android:id="@+id/friend_delete" android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+		</Button>
+
+		<Button android:text="View Leaderboards" android:id="@+id/friend_leaderboard"
+			android:layout_width="wrap_content" android:layout_weight=".5"
+			android:layout_height="fill_parent">
+		</Button>
+	</LinearLayout>
+	<LinearLayout android:layout_weight=".9"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+
+		<LinearLayout android:layout_weight=".3"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			
+			<EditText android:id="@+id/add_friend_ET" android:lines="1"
+				android:layout_height="fill_parent" android:layout_width="fill_parent"
+				android:singleLine="true" android:hint="Add Friend" />
+		</LinearLayout>
+		<LinearLayout android:layout_weight=".6"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="horizontal">
+
+			<Button android:text="Add friend" android:id="@+id/friend_addfriend_submit"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			</Button>
+		</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>

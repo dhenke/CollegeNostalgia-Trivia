@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<!-- Logo Section -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		
+		       <ImageView
+            android:src = "@drawable/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+		
+	</LinearLayout>
+	
+	<!-- Button Section -->
+		<LinearLayout android:orientation="horizontal"
+		android:layout_height="wrap_content" 
+		android:layout_weight="1"
+		android:gravity="center"
+		android:padding="4px" android:layout_width="fill_parent">
+		
+		<!-- Padding -->
+		<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:padding="4px" android:layout_height="fill_parent">
+		</LinearLayout>
+	
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:padding="4px" android:layout_height="fill_parent">
+
+
+		<Button 
+			android:text="Play Game"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:id="@+id/playgame"
+			android:padding="4px" android:layout_width="fill_parent">
+		</Button>
+		
+		<Button 
+			android:id="@+id/leaderboards" 
+			android:text="Leaderboards"
+			android:gravity="center" 
+			android:layout_height="wrap_content" 
+			android:padding="4px"
+			android:layout_gravity="center" android:layout_width="fill_parent">
+		</Button>
+		
+		<Button 
+			android:text="Friends List" 
+			android:layout_gravity="center"
+			android:layout_height="wrap_content" 
+			android:gravity="center" 
+			android:padding="4px"
+			android:id="@+id/main_friends_list_button" android:layout_width="fill_parent"/>
+
+		<Button 
+			android:layout_gravity="center" 
+			android:layout_height="wrap_content"
+			android:text="Logout" 
+			android:gravity="center" 
+			android:padding="4px"
+			android:id="@+id/logoutButton" android:layout_width="fill_parent">
+		</Button>
+		
+		<Button 
+			android:layout_gravity="center" 
+			android:layout_height="wrap_content"
+			android:text="Reset Password" 
+			android:gravity="center" 
+			android:padding="4px"
+			android:layout_width="fill_parent" android:id="@+id/resetbutton">
+		</Button>
+		</LinearLayout>
+		
+		<!-- Padding -->
+		<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:padding="4px" android:layout_height="fill_parent">
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<!-- Signed-in User Section -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_weight=".2"
+		android:gravity="center">
+
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:text="Logged in as: "
+			android:textSize="18px" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" />
+
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:text="user"
+			android:textSize="18px" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" android:id="@+id/displayuser"/>
+			
+	</LinearLayout>
+</LinearLayout>

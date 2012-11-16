@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World!</string>
+	<string name="app_name">Android.triviareaTest</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="GS_jsonURL">http://triviarea.projects.cs.illinois.edu/oldExampleJSON.php
+	</string>
+	<string name="GS_jsonURLFull">http://triviarea.projects.cs.illinois.edu/exampleJSON.php
+	</string>
+	<string name="GS_jsonText">{\&quot;setID\&quot;:\&quot;1\&quot;,\&quot;category\&quot;:\&quot;Math\&quot;,\&quot;question1\&quot;:{\&quot;question\&quot;:\&quot;What
+		is a prime
+		number?\&quot;,\&quot;correctAns\&quot;:\&quot;2\&quot;,\&quot;wrong1\&quot;:\&quot;4\&quot;,\&quot;wrong2\&quot;:\&quot;6\&quot;,\&quot;wrong3\&quot;:\&quot;8\&quot;},\&quot;question2\&quot;:{\&quot;question\&quot;:\&quot;What
+		is an even
+		number?\&quot;,\&quot;correctAns\&quot;:\&quot;2\&quot;,\&quot;wrong1\&quot;:\&quot;3\&quot;,\&quot;wrong2\&quot;:\&quot;5\&quot;,\&quot;wrong3\&quot;:\&quot;7\&quot;},\&quot;question3\&quot;:{\&quot;question\&quot;:\&quot;What
+		is an odd
+		number?\&quot;,\&quot;correctAns\&quot;:\&quot;3\&quot;,\&quot;wrong1\&quot;:\&quot;4\&quot;,\&quot;wrong2\&quot;:\&quot;6\&quot;,\&quot;wrong3\&quot;:\&quot;8\&quot;}}
+	</string>
+	<string name="leaderboard_url">http://triviarea.projects.cs.illinois.edu/retrieveLeaderboard.php
+	</string>
+	<string name="login_fail_not_found">login failed with current username and password
+	</string>
+	<string name="login_fail_incorrect_input">Username or password formatted incorrectly. only
+		numbers, letters, and underscore accepted.</string>
+	<string name="register_success">Registration successful</string>
+	<string name="register_fail_at_server">Username or email already in use or no internet
+		connection</string>
+	<string name="user_password_regEX">^[\\S]{5,}$</string>
+	<string name="user_login_url">http://triviarea.projects.cs.illinois.edu/appLogin.php
+	</string>
+	<string name="user_register_url">http://triviarea.projects.cs.illinois.edu/register.php
+	</string>
+	<string name="user_friend_url">http://triviarea.projects.cs.illinois.edu/friends.php
+	</string>
+	<string name="user_unregister_url">http://triviarea.projects.cs.illinois.edu/unregister.php
+	</string>
+	<string name="categories_url">http://triviarea.projects.cs.illinois.edu/retrieveCatNotPlayed.php
+	</string>
+	<string name="user_username_regEX">\\w+</string>
+	<string name="user_email_regEX">^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,4}$</string>
+	<string name="user_file">userInfo</string>
+	<string name="password_change_url">http://triviarea.projects.cs.illinois.edu/changePassword.php
+	</string>
+</resources>

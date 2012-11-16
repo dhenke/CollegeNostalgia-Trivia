@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+	<!-- Top Button -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_weight=".16" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:paddingTop="3dip" android:paddingBottom="3dip">
+
+		<Button android:id="@+id/geography_category" android:text="Geography"
+			android:layout_weight="1" android:layout_gravity="center"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:fadingEdge="vertical"></Button>
+
+
+	</LinearLayout>
+
+	<!-- 2nd top two buttons -->
+	<LinearLayout android:layout_weight=".16"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button android:id="@+id/science_category" android:text="Science"
+			android:layout_gravity="center" android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+		</Button>
+
+		<Button android:id="@+id/history_category" android:text="History"
+			android:layout_gravity="center" android:layout_weight="1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+		</Button>
+
+	</LinearLayout>
+
+	<!-- Middle (4 buttons, title) -->
+	<LinearLayout android:layout_weight=".22"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<!-- Left two buttons -->
+		<LinearLayout android:orientation="vertical"
+			android:layout_weight=".3" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" 
+			android:gravity="left">
+
+			<Button android:id="@+id/art_category" android:text="Art"
+				android:layout_gravity="center" android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="wrap_content">
+
+			</Button>
+
+			<Button android:id="@+id/math_category" android:text="Math"
+				android:layout_gravity="center" android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="wrap_content">
+
+			</Button>
+		</LinearLayout>
+
+		<!-- title -->
+		<LinearLayout android:layout_weight=".4"
+			android:layout_height="fill_parent" android:orientation="horizontal"
+			android:layout_width="wrap_content" android:gravity="right">
+			<TextView android:text="Categories" android:layout_weight="1"
+
+				android:gravity="center" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:textSize="25dip" />
+		</LinearLayout>
+
+		<!-- Right two buttons -->
+		<LinearLayout android:orientation="vertical"
+			android:layout_weight=".3" android:layout_height="fill_parent"
+			android:layout_width="wrap_content">
+
+			<Button android:id="@+id/sports_category" android:text="Sports"
+				android:layout_gravity="center" android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="wrap_content">
+
+			</Button>
+
+			<Button android:id="@+id/movies_category" android:text="Movies"
+				android:layout_gravity="center" android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="wrap_content">
+
+			</Button>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout android:layout_weight=".16"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_width="fill_parent">
+
+		<Button android:id="@+id/television_category" android:text="Television"
+			android:layout_gravity="center" android:layout_width="wrap_content"
+			android:layout_weight="1" android:layout_height="wrap_content">
+
+		</Button>
+
+		<Button android:id="@+id/music_category" android:text="Music"
+			android:layout_gravity="center" android:layout_width="wrap_content"
+			android:layout_weight="1" android:layout_height="wrap_content">
+
+		</Button>
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_weight=".16" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:paddingTop="3dip" android:paddingBottom="3dip">
+
+		<Button android:id="@+id/misc_category" android:text="Miscellaneous"
+			android:layout_gravity="center" android:layout_width="wrap_content"
+			android:layout_weight="1" android:layout_height="wrap_content">
+
+		</Button>
+	</LinearLayout>
+</LinearLayout>

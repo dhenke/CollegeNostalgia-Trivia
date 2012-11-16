@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+		<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+		</LinearLayout>
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_weight=".3">
+		
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_weight=".9">
+
+		<TextView 
+		android:layout_width="fill_parent" 
+		android:text="Register"
+		android:textSize="32sp" 
+		android:layout_height="fill_parent" 
+		android:gravity="center"/>
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_weight=".9">
+		
+		<TextView 
+		android:layout_width="fill_parent" 
+		android:text="Username (letters, numbers, _ allowed): " 
+		android:layout_height="wrap_content" 
+		android:textSize="15sp"
+		android:gravity="left"/>
+		
+		<EditText
+		android:id="@+id/Register_Username_EditText"
+		android:lines="1"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent" android:singleLine="true"/>
+		
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_weight=".9">
+		
+		<TextView 
+		android:layout_width="fill_parent" 
+		android:text="Password: (5 or more nonwhite space characters)" 
+		android:layout_height="wrap_content" 
+		android:textSize="15sp" 
+		android:gravity="left"/>
+		
+		<EditText
+		android:id="@+id/Register_Password_EditText"
+		android:lines="1"
+		android:password="true"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent" android:singleLine="true"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"	
+	android:layout_weight=".9">
+		
+		<TextView 
+		android:layout_width="fill_parent" 
+		android:text="Email (e.x. john_bro5@moomoo.com): " 
+		android:layout_height="wrap_content" 
+		android:textSize="15sp"
+		android:gravity="left"/>
+		
+		<EditText
+		android:id="@+id/Register_Email_EditText"
+		android:lines="1"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent" android:singleLine="true" android:inputType="textEmailAddress"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_weight=".95">
+		<Button
+		android:id="@+id/Regsiter_Submit_button"
+		android:layout_gravity="center" 
+		android:layout_height="fill_parent" 
+		android:text="Submit"
+		android:layout_width="fill_parent" 
+		android:gravity="center">
+		</Button>
+	</LinearLayout>		
+	</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+		</LinearLayout>
+</LinearLayout>

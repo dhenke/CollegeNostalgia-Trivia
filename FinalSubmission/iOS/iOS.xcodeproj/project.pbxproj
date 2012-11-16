@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		2B045514132AC0370022945F /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B045512132AC0370022945F /* RegisterView.xib */; };
+		2B045515132AC0370022945F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B045511132AC0370022945F /* RegisterViewController.m */; };
+		2B045516132AC0370022945F /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B045512132AC0370022945F /* RegisterView.xib */; };
+		2B6815BB135DEC08007FBFCC /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6815BA135DEC08007FBFCC /* ChangePasswordViewController.m */; };
+		2B6815BC135DEC08007FBFCC /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6815BA135DEC08007FBFCC /* ChangePasswordViewController.m */; };
+		2B769FD81353F4E50043F700 /* FriendsLeaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FCE1353F4E50043F700 /* FriendsLeaderboard.m */; };
+		2B769FD91353F4E50043F700 /* Leaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD01353F4E50043F700 /* Leaderboard.m */; };
+		2B769FDA1353F4E50043F700 /* LeaderboardEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD21353F4E50043F700 /* LeaderboardEntry.m */; };
+		2B769FDB1353F4E50043F700 /* LeaderboardJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD41353F4E50043F700 /* LeaderboardJSON.m */; };
+		2B769FDC1353F4E50043F700 /* SelectLeaderboardCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B769FD51353F4E50043F700 /* SelectLeaderboardCategoryView.xib */; };
+		2B769FDD1353F4E50043F700 /* SelectLeaderboardCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD71353F4E50043F700 /* SelectLeaderboardCategoryViewController.m */; };
+		2B769FDE1353F4E50043F700 /* FriendsLeaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FCE1353F4E50043F700 /* FriendsLeaderboard.m */; };
+		2B769FDF1353F4E50043F700 /* Leaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD01353F4E50043F700 /* Leaderboard.m */; };
+		2B769FE01353F4E50043F700 /* LeaderboardEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD21353F4E50043F700 /* LeaderboardEntry.m */; };
+		2B769FE11353F4E50043F700 /* LeaderboardJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD41353F4E50043F700 /* LeaderboardJSON.m */; };
+		2B769FE21353F4E50043F700 /* SelectLeaderboardCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B769FD51353F4E50043F700 /* SelectLeaderboardCategoryView.xib */; };
+		2B769FE31353F4E50043F700 /* SelectLeaderboardCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B769FD71353F4E50043F700 /* SelectLeaderboardCategoryViewController.m */; };
+		2B76A0271353FB660043F700 /* PDColoredProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B76A0261353FB660043F700 /* PDColoredProgressView.m */; };
+		2B9A6038135A31380053ECAC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A6037135A31380053ECAC /* logo.png */; };
+		2B9A6039135A31380053ECAC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A6037135A31380053ECAC /* logo.png */; };
+		2BAC65A413568DCF00F87D79 /* AddFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC65A213568DCF00F87D79 /* AddFriendsViewController.m */; };
+		2BAC65A513568DCF00F87D79 /* AddFriendsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BAC65A313568DCF00F87D79 /* AddFriendsView.xib */; };
+		2BAC65A613568DCF00F87D79 /* AddFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC65A213568DCF00F87D79 /* AddFriendsViewController.m */; };
+		2BAC65A713568DCF00F87D79 /* AddFriendsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BAC65A313568DCF00F87D79 /* AddFriendsView.xib */; };
+		2BB9D97D13569D9C00E00849 /* RemoveFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9D97B13569D9C00E00849 /* RemoveFriendViewController.m */; };
+		2BB9D97E13569D9C00E00849 /* RemoveFriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9D97C13569D9C00E00849 /* RemoveFriendView.xib */; };
+		2BB9D97F13569D9C00E00849 /* RemoveFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9D97B13569D9C00E00849 /* RemoveFriendViewController.m */; };
+		2BB9D98013569D9C00E00849 /* RemoveFriendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9D97C13569D9C00E00849 /* RemoveFriendView.xib */; };
+		2BCA074A13565CA400E469F2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA074913565CA400E469F2 /* Icon.png */; };
+		2BCA074B13565CA400E469F2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCA074913565CA400E469F2 /* Icon.png */; };
+		2BDD0166135D4DD500CFD874 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD0165135D4DD500CFD874 /* ForgotPasswordViewController.m */; };
+		2BDD0167135D4DD500CFD874 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD0165135D4DD500CFD874 /* ForgotPasswordViewController.m */; };
+		2BFA7A2E131352DE00606AD4 /* QuestionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DB81B1312F0FB0054B3DE /* QuestionSet.m */; };
+		2BFA7A2F131352DE00606AD4 /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iOSAppDelegate.m */; };
+		2BFA7A30131352DE00606AD4 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DB7181312176B0054B3DE /* Question.m */; };
+		2BFA7A33131352DE00606AD4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5527C1D01311FD51004A6937 /* RootViewController.m */; };
+		2BFA7A35131352DE00606AD4 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5527C1D71311FD82004A6937 /* QuestionViewController.m */; };
+		2BFA7AA2131354EA00606AD4 /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA78641313411200606AD4 /* GTMSenTestCase.m */; };
+		2BFA7AA3131354EA00606AD4 /* GTMUnitTestDevLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA78661313411200606AD4 /* GTMUnitTestDevLog.m */; };
+		2BFA7AA4131354EA00606AD4 /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA786A1313415E00606AD4 /* GTMObjC2Runtime.m */; };
+		2BFA7AA5131354EA00606AD4 /* GTMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA786C1313415E00606AD4 /* GTMRegex.m */; };
+		2BFA7AA6131354EA00606AD4 /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA785F131340DA00606AD4 /* GTMIPhoneUnitTestDelegate.m */; };
+		2BFA7AA7131354EA00606AD4 /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA7860131340DA00606AD4 /* GTMIPhoneUnitTestMain.m */; };
+		5508B25A13EA38F900FD1A59 /* ChangePasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5508B25813EA38F900FD1A59 /* ChangePasswordView.xib */; };
+		5508B25B13EA38F900FD1A59 /* ChangePasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5508B25813EA38F900FD1A59 /* ChangePasswordView.xib */; };
+		5508B25C13EA38F900FD1A59 /* ForgotPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5508B25913EA38F900FD1A59 /* ForgotPasswordView.xib */; };
+		5508B25D13EA38F900FD1A59 /* ForgotPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5508B25913EA38F900FD1A59 /* ForgotPasswordView.xib */; };
+		5508B3A613EA39B900FD1A59 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28013EA39B800FD1A59 /* NSObject+JSON.m */; };
+		5508B3A713EA39B900FD1A59 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28013EA39B800FD1A59 /* NSObject+JSON.m */; };
+		5508B3A813EA39B900FD1A59 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28213EA39B800FD1A59 /* SBJsonParser.m */; };
+		5508B3A913EA39B900FD1A59 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28213EA39B800FD1A59 /* SBJsonParser.m */; };
+		5508B3AA13EA39B900FD1A59 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28413EA39B800FD1A59 /* SBJsonStreamParser.m */; };
+		5508B3AB13EA39B900FD1A59 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28413EA39B800FD1A59 /* SBJsonStreamParser.m */; };
+		5508B3AC13EA39B900FD1A59 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28613EA39B800FD1A59 /* SBJsonStreamParserAdapter.m */; };
+		5508B3AD13EA39B900FD1A59 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28613EA39B800FD1A59 /* SBJsonStreamParserAdapter.m */; };
+		5508B3AE13EA39B900FD1A59 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28813EA39B800FD1A59 /* SBJsonStreamParserState.m */; };
+		5508B3AF13EA39B900FD1A59 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28813EA39B800FD1A59 /* SBJsonStreamParserState.m */; };
+		5508B3B013EA39B900FD1A59 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28A13EA39B800FD1A59 /* SBJsonStreamWriter.m */; };
+		5508B3B113EA39B900FD1A59 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28A13EA39B800FD1A59 /* SBJsonStreamWriter.m */; };
+		5508B3B213EA39B900FD1A59 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28C13EA39B800FD1A59 /* SBJsonStreamWriterState.m */; };
+		5508B3B313EA39B900FD1A59 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28C13EA39B800FD1A59 /* SBJsonStreamWriterState.m */; };
+		5508B3B413EA39B900FD1A59 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28E13EA39B800FD1A59 /* SBJsonTokeniser.m */; };
+		5508B3B513EA39B900FD1A59 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B28E13EA39B800FD1A59 /* SBJsonTokeniser.m */; };
+		5508B3B613EA39B900FD1A59 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B29013EA39B800FD1A59 /* SBJsonWriter.m */; };
+		5508B3B713EA39B900FD1A59 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508B29013EA39B800FD1A59 /* SBJsonWriter.m */; };
+		550CFE291353B48D00447BA0 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 550CFE281353B48D00447BA0 /* CustomButton.m */; };
+		550CFE2A1353B48D00447BA0 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 550CFE281353B48D00447BA0 /* CustomButton.m */; };
+		5527C1DF1311FDB6004A6937 /* QuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5527C1DE1311FDB6004A6937 /* QuestionView.xib */; };
+		5527C1E31311FDC1004A6937 /* MainMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5527C1E21311FDC1004A6937 /* MainMenuView.xib */; };
+		553114AA1345026B00EBF36D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 553114A91345026B00EBF36D /* User.m */; };
+		553114AB1345026B00EBF36D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 553114A91345026B00EBF36D /* User.m */; };
+		5561872E134A8629006F53FE /* InGameMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561872D134A8629006F53FE /* InGameMenuViewController.m */; };
+		55618731134A862E006F53FE /* InGameMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55618730134A862E006F53FE /* InGameMenuView.xib */; };
+		55618732134A862E006F53FE /* InGameMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55618730134A862E006F53FE /* InGameMenuView.xib */; };
+		5561873D134A8648006F53FE /* LeaderboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5561873B134A8648006F53FE /* LeaderboardView.xib */; };
+		5561873E134A8648006F53FE /* LogInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5561873C134A8648006F53FE /* LogInView.xib */; };
+		5561873F134A8648006F53FE /* LeaderboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5561873B134A8648006F53FE /* LeaderboardView.xib */; };
+		55618740134A8648006F53FE /* LogInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5561873C134A8648006F53FE /* LogInView.xib */; };
+		55618743134A8650006F53FE /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55618742134A8650006F53FE /* LogInViewController.m */; };
+		55618747134A8657006F53FE /* PostGameMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55618746134A8657006F53FE /* PostGameMenuViewController.m */; };
+		5561874A134A8662006F53FE /* PostGameMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55618749134A8662006F53FE /* PostGameMenuView.xib */; };
+		5561874B134A8662006F53FE /* PostGameMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55618749134A8662006F53FE /* PostGameMenuView.xib */; };
+		5561876F134A907F006F53FE /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561876E134A907F006F53FE /* LeaderboardViewController.m */; };
+		5561878F134A9187006F53FE /* QuestionSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA7A471313539D00606AD4 /* QuestionSetTests.m */; };
+		55618790134A9187006F53FE /* LogInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55618738134A8640006F53FE /* LogInTests.m */; };
+		55618791134A9187006F53FE /* RegisterUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55618758134A86C2006F53FE /* RegisterUserTests.m */; };
+		55618795134A9198006F53FE /* QuestionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DB81B1312F0FB0054B3DE /* QuestionSet.m */; };
+		55618796134A9198006F53FE /* iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iOSAppDelegate.m */; };
+		55618797134A9198006F53FE /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DB7181312176B0054B3DE /* Question.m */; };
+		55618798134A9198006F53FE /* InGameMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561872D134A8629006F53FE /* InGameMenuViewController.m */; };
+		55618799134A9198006F53FE /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561876E134A907F006F53FE /* LeaderboardViewController.m */; };
+		5561879A134A9198006F53FE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B045511132AC0370022945F /* RegisterViewController.m */; };
+		5561879B134A9198006F53FE /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5527C1D71311FD82004A6937 /* QuestionViewController.m */; };
+		5561879C134A9198006F53FE /* PostGameMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55618746134A8657006F53FE /* PostGameMenuViewController.m */; };
+		5561879D134A9198006F53FE /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55618742134A8650006F53FE /* LogInViewController.m */; };
+		5561879E134A9198006F53FE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5527C1D01311FD51004A6937 /* RootViewController.m */; };
+		5561879F134A9198006F53FE /* SelectCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0840E132B01F7001026DB /* SelectCategoryViewController.m */; };
+		557907DE1353C31F0042C31A /* ButtonBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 557907DC1353C31F0042C31A /* ButtonBack.png */; };
+		557907DF1353C31F0042C31A /* ButtonBackHigh.png in Resources */ = {isa = PBXBuildFile; fileRef = 557907DD1353C31F0042C31A /* ButtonBackHigh.png */; };
+		557907E01353C31F0042C31A /* ButtonBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 557907DC1353C31F0042C31A /* ButtonBack.png */; };
+		557907E11353C31F0042C31A /* ButtonBackHigh.png in Resources */ = {isa = PBXBuildFile; fileRef = 557907DD1353C31F0042C31A /* ButtonBackHigh.png */; };
+		557908041353CD180042C31A /* ButtonBackBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 557908031353CD180042C31A /* ButtonBackBlue.png */; };
+		557908051353CD180042C31A /* ButtonBackBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 557908031353CD180042C31A /* ButtonBackBlue.png */; };
+		557908371353D2520042C31A /* ButtonBackGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 557908351353D2520042C31A /* ButtonBackGreen.png */; };
+		557908381353D2520042C31A /* ButtonBackRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 557908361353D2520042C31A /* ButtonBackRed.png */; };
+		557908391353D2520042C31A /* ButtonBackGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 557908351353D2520042C31A /* ButtonBackGreen.png */; };
+		5579083A1353D2520042C31A /* ButtonBackRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 557908361353D2520042C31A /* ButtonBackRed.png */; };
+		55D08410132B01F7001026DB /* SelectCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0840E132B01F7001026DB /* SelectCategoryViewController.m */; };
+		55D08411132B01F7001026DB /* SelectCategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D0840F132B01F7001026DB /* SelectCategoryView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B045510132AC0370022945F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		2B045511132AC0370022945F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		2B045512132AC0370022945F /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegisterView.xib; path = Classes/RegisterView.xib; sourceTree = "<group>"; };
+		2B6815B9135DEC08007FBFCC /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		2B6815BA135DEC08007FBFCC /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		2B769FCD1353F4E50043F700 /* FriendsLeaderboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsLeaderboard.h; sourceTree = "<group>"; };
+		2B769FCE1353F4E50043F700 /* FriendsLeaderboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsLeaderboard.m; sourceTree = "<group>"; };
+		2B769FCF1353F4E50043F700 /* Leaderboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaderboard.h; sourceTree = "<group>"; };
+		2B769FD01353F4E50043F700 /* Leaderboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaderboard.m; sourceTree = "<group>"; };
+		2B769FD11353F4E50043F700 /* LeaderboardEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardEntry.h; sourceTree = "<group>"; };
+		2B769FD21353F4E50043F700 /* LeaderboardEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardEntry.m; sourceTree = "<group>"; };
+		2B769FD31353F4E50043F700 /* LeaderboardJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardJSON.h; sourceTree = "<group>"; };
+		2B769FD41353F4E50043F700 /* LeaderboardJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardJSON.m; sourceTree = "<group>"; };
+		2B769FD51353F4E50043F700 /* SelectLeaderboardCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SelectLeaderboardCategoryView.xib; path = Classes/SelectLeaderboardCategoryView.xib; sourceTree = "<group>"; };
+		2B769FD61353F4E50043F700 /* SelectLeaderboardCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLeaderboardCategoryViewController.h; sourceTree = "<group>"; };
+		2B769FD71353F4E50043F700 /* SelectLeaderboardCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLeaderboardCategoryViewController.m; sourceTree = "<group>"; };
+		2B76A0251353FB660043F700 /* PDColoredProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDColoredProgressView.h; path = ../PDColoredProgressView.h; sourceTree = "<group>"; };
+		2B76A0261353FB660043F700 /* PDColoredProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDColoredProgressView.m; path = ../PDColoredProgressView.m; sourceTree = "<group>"; };
+		2B9A6037135A31380053ECAC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2B9DB7171312176B0054B3DE /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		2B9DB7181312176B0054B3DE /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		2B9DB81B1312F0FB0054B3DE /* QuestionSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionSet.m; sourceTree = "<group>"; };
+		2B9DB8491312F3930054B3DE /* QuestionSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionSet.h; sourceTree = "<group>"; };
+		2BAC65A113568DCF00F87D79 /* AddFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendsViewController.h; sourceTree = "<group>"; };
+		2BAC65A213568DCF00F87D79 /* AddFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendsViewController.m; sourceTree = "<group>"; };
+		2BAC65A313568DCF00F87D79 /* AddFriendsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddFriendsView.xib; path = Classes/AddFriendsView.xib; sourceTree = "<group>"; };
+		2BB9D97A13569D9C00E00849 /* RemoveFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveFriendViewController.h; sourceTree = "<group>"; };
+		2BB9D97B13569D9C00E00849 /* RemoveFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveFriendViewController.m; sourceTree = "<group>"; };
+		2BB9D97C13569D9C00E00849 /* RemoveFriendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RemoveFriendView.xib; path = Classes/RemoveFriendView.xib; sourceTree = "<group>"; };
+		2BCA074913565CA400E469F2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2BCA078C1356727200E469F2 /* dlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dlist.plist; sourceTree = "<group>"; };
+		2BDD0164135D4DD500CFD874 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		2BDD0165135D4DD500CFD874 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		2BFA785E131340DA00606AD4 /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMIPhoneUnitTestDelegate.h; path = ../GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
+		2BFA785F131340DA00606AD4 /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestDelegate.m; path = ../GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
+		2BFA7860131340DA00606AD4 /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestMain.m; path = ../GTMIPhoneUnitTestMain.m; sourceTree = "<group>"; };
+		2BFA78631313411200606AD4 /* GTMSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMSenTestCase.h; path = ../GTMSenTestCase.h; sourceTree = "<group>"; };
+		2BFA78641313411200606AD4 /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSenTestCase.m; path = ../GTMSenTestCase.m; sourceTree = "<group>"; };
+		2BFA78651313411200606AD4 /* GTMUnitTestDevLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMUnitTestDevLog.h; path = ../GTMUnitTestDevLog.h; sourceTree = "<group>"; };
+		2BFA78661313411200606AD4 /* GTMUnitTestDevLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMUnitTestDevLog.m; path = ../GTMUnitTestDevLog.m; sourceTree = "<group>"; };
+		2BFA78691313415E00606AD4 /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMObjC2Runtime.h; path = ../GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		2BFA786A1313415E00606AD4 /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMObjC2Runtime.m; path = ../GTMObjC2Runtime.m; sourceTree = "<group>"; };
+		2BFA786B1313415E00606AD4 /* GTMRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMRegex.h; path = ../GTMRegex.h; sourceTree = "<group>"; };
+		2BFA786C1313415E00606AD4 /* GTMRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMRegex.m; path = ../GTMRegex.m; sourceTree = "<group>"; };
+		2BFA786F1313417200606AD4 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = ../GTMDefines.h; sourceTree = "<group>"; };
+		2BFA7A461313539D00606AD4 /* QuestionSetTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionSetTests.h; sourceTree = "<group>"; };
+		2BFA7A471313539D00606AD4 /* QuestionSetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionSetTests.m; sourceTree = "<group>"; };
+		2BFA7A9C131354D100606AD4 /* TriviaUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFA7A9E131354D100606AD4 /* TriviaUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriviaUnitTests-Info.plist"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_Prefix.pch; sourceTree = "<group>"; };
+		5508B25813EA38F900FD1A59 /* ChangePasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChangePasswordView.xib; path = Classes/ChangePasswordView.xib; sourceTree = "<group>"; };
+		5508B25913EA38F900FD1A59 /* ForgotPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ForgotPasswordView.xib; path = Classes/ForgotPasswordView.xib; sourceTree = "<group>"; };
+		5508B27E13EA39B800FD1A59 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5508B27F13EA39B800FD1A59 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		5508B28013EA39B800FD1A59 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		5508B28113EA39B800FD1A59 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5508B28213EA39B800FD1A59 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		5508B28313EA39B800FD1A59 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		5508B28413EA39B800FD1A59 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		5508B28513EA39B800FD1A59 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		5508B28613EA39B800FD1A59 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		5508B28713EA39B800FD1A59 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		5508B28813EA39B800FD1A59 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		5508B28913EA39B800FD1A59 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		5508B28A13EA39B800FD1A59 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		5508B28B13EA39B800FD1A59 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		5508B28C13EA39B800FD1A59 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		5508B28D13EA39B800FD1A59 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		5508B28E13EA39B800FD1A59 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		5508B28F13EA39B800FD1A59 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		5508B29013EA39B800FD1A59 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		550CFE271353B48D00447BA0 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		550CFE281353B48D00447BA0 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		5527C1CF1311FD51004A6937 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5527C1D01311FD51004A6937 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5527C1D61311FD82004A6937 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		5527C1D71311FD82004A6937 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		5527C1DE1311FDB6004A6937 /* QuestionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QuestionView.xib; path = Classes/QuestionView.xib; sourceTree = "<group>"; };
+		5527C1E21311FDC1004A6937 /* MainMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuView.xib; sourceTree = "<group>"; };
+		553114A81345026B00EBF36D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		553114A91345026B00EBF36D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5561872C134A8629006F53FE /* InGameMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameMenuViewController.h; sourceTree = "<group>"; };
+		5561872D134A8629006F53FE /* InGameMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameMenuViewController.m; sourceTree = "<group>"; };
+		55618730134A862E006F53FE /* InGameMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = InGameMenuView.xib; path = Classes/InGameMenuView.xib; sourceTree = "<group>"; };
+		55618737134A8640006F53FE /* LogInTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInTests.h; sourceTree = "<group>"; };
+		55618738134A8640006F53FE /* LogInTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInTests.m; sourceTree = "<group>"; };
+		5561873B134A8648006F53FE /* LeaderboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LeaderboardView.xib; path = Classes/LeaderboardView.xib; sourceTree = "<group>"; };
+		5561873C134A8648006F53FE /* LogInView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LogInView.xib; path = Classes/LogInView.xib; sourceTree = "<group>"; };
+		55618741134A8650006F53FE /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		55618742134A8650006F53FE /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		55618745134A8657006F53FE /* PostGameMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostGameMenuViewController.h; sourceTree = "<group>"; };
+		55618746134A8657006F53FE /* PostGameMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostGameMenuViewController.m; sourceTree = "<group>"; };
+		55618749134A8662006F53FE /* PostGameMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PostGameMenuView.xib; path = Classes/PostGameMenuView.xib; sourceTree = "<group>"; };
+		55618757134A86C2006F53FE /* RegisterUserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterUserTests.h; sourceTree = "<group>"; };
+		55618758134A86C2006F53FE /* RegisterUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterUserTests.m; sourceTree = "<group>"; };
+		5561876D134A907F006F53FE /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		5561876E134A907F006F53FE /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
+		557907DC1353C31F0042C31A /* ButtonBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBack.png; sourceTree = "<group>"; };
+		557907DD1353C31F0042C31A /* ButtonBackHigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackHigh.png; sourceTree = "<group>"; };
+		557908031353CD180042C31A /* ButtonBackBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackBlue.png; sourceTree = "<group>"; };
+		557908351353D2520042C31A /* ButtonBackGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackGreen.png; sourceTree = "<group>"; };
+		557908361353D2520042C31A /* ButtonBackRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackRed.png; sourceTree = "<group>"; };
+		55D0840D132B01F7001026DB /* SelectCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectCategoryViewController.h; path = ../SelectCategoryViewController.h; sourceTree = "<group>"; };
+		55D0840E132B01F7001026DB /* SelectCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectCategoryViewController.m; path = ../SelectCategoryViewController.m; sourceTree = "<group>"; };
+		55D0840F132B01F7001026DB /* SelectCategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectCategoryView.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFA7A9A131354D100606AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5508B27A13EA39B800FD1A59 /* JSON v3.0beta1 (iOS) */,
+				2BFA78C6131344EE00606AD4 /* Tests */,
+				2BFA788B1313425A00606AD4 /* Google-Toolbox */,
+				2B9A61B2135A6D620053ECAC /* Data Classes */,
+				2B9A61B3135A6D850053ECAC /* ViewControllers */,
+				2B9A61B4135A6D8E0053ECAC /* Misc Classes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iOS.app */,
+				2BFA7A9C131354D100606AD4 /* TriviaUnitTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				2BFA7A9E131354D100606AD4 /* TriviaUnitTests-Info.plist */,
+				2BCA078C1356727200E469F2 /* dlist.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iOS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BB5A2F0135A7A46007E0699 /* Images */,
+				2BAC65A313568DCF00F87D79 /* AddFriendsView.xib */,
+				55618730134A862E006F53FE /* InGameMenuView.xib */,
+				5561873B134A8648006F53FE /* LeaderboardView.xib */,
+				5561873C134A8648006F53FE /* LogInView.xib */,
+				5527C1E21311FDC1004A6937 /* MainMenuView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				55618749134A8662006F53FE /* PostGameMenuView.xib */,
+				5527C1DE1311FDB6004A6937 /* QuestionView.xib */,
+				2B045512132AC0370022945F /* RegisterView.xib */,
+				5508B25813EA38F900FD1A59 /* ChangePasswordView.xib */,
+				5508B25913EA38F900FD1A59 /* ForgotPasswordView.xib */,
+				2BB9D97C13569D9C00E00849 /* RemoveFriendView.xib */,
+				55D0840F132B01F7001026DB /* SelectCategoryView.xib */,
+				2B769FD51353F4E50043F700 /* SelectLeaderboardCategoryView.xib */,
+				8D1107310486CEB800E47090 /* iOS-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B9A61B2135A6D620053ECAC /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B9DB8491312F3930054B3DE /* QuestionSet.h */,
+				2B9DB81B1312F0FB0054B3DE /* QuestionSet.m */,
+				2B9DB7171312176B0054B3DE /* Question.h */,
+				2B9DB7181312176B0054B3DE /* Question.m */,
+				553114A81345026B00EBF36D /* User.h */,
+				553114A91345026B00EBF36D /* User.m */,
+				2B769FCD1353F4E50043F700 /* FriendsLeaderboard.h */,
+				2B769FCE1353F4E50043F700 /* FriendsLeaderboard.m */,
+				2B769FCF1353F4E50043F700 /* Leaderboard.h */,
+				2B769FD01353F4E50043F700 /* Leaderboard.m */,
+				2B769FD11353F4E50043F700 /* LeaderboardEntry.h */,
+				2B769FD21353F4E50043F700 /* LeaderboardEntry.m */,
+				2B769FD31353F4E50043F700 /* LeaderboardJSON.h */,
+				2B769FD41353F4E50043F700 /* LeaderboardJSON.m */,
+			);
+			name = "Data Classes";
+			sourceTree = "<group>";
+		};
+		2B9A61B3135A6D850053ECAC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5527C1CF1311FD51004A6937 /* RootViewController.h */,
+				5527C1D01311FD51004A6937 /* RootViewController.m */,
+				55618741134A8650006F53FE /* LogInViewController.h */,
+				55618742134A8650006F53FE /* LogInViewController.m */,
+				2B045510132AC0370022945F /* RegisterViewController.h */,
+				2B045511132AC0370022945F /* RegisterViewController.m */,
+				55D0840D132B01F7001026DB /* SelectCategoryViewController.h */,
+				55D0840E132B01F7001026DB /* SelectCategoryViewController.m */,
+				2BDD0164135D4DD500CFD874 /* ForgotPasswordViewController.h */,
+				2BDD0165135D4DD500CFD874 /* ForgotPasswordViewController.m */,
+				5527C1D61311FD82004A6937 /* QuestionViewController.h */,
+				5527C1D71311FD82004A6937 /* QuestionViewController.m */,
+				5561872C134A8629006F53FE /* InGameMenuViewController.h */,
+				5561872D134A8629006F53FE /* InGameMenuViewController.m */,
+				55618745134A8657006F53FE /* PostGameMenuViewController.h */,
+				55618746134A8657006F53FE /* PostGameMenuViewController.m */,
+				2B6815B9135DEC08007FBFCC /* ChangePasswordViewController.h */,
+				2B6815BA135DEC08007FBFCC /* ChangePasswordViewController.m */,
+				2B769FD61353F4E50043F700 /* SelectLeaderboardCategoryViewController.h */,
+				2B769FD71353F4E50043F700 /* SelectLeaderboardCategoryViewController.m */,
+				5561876D134A907F006F53FE /* LeaderboardViewController.h */,
+				5561876E134A907F006F53FE /* LeaderboardViewController.m */,
+				2BAC65A113568DCF00F87D79 /* AddFriendsViewController.h */,
+				2BAC65A213568DCF00F87D79 /* AddFriendsViewController.m */,
+				2BB9D97A13569D9C00E00849 /* RemoveFriendViewController.h */,
+				2BB9D97B13569D9C00E00849 /* RemoveFriendViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B9A61B4135A6D8E0053ECAC /* Misc Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iOSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iOSAppDelegate.m */,
+				550CFE271353B48D00447BA0 /* CustomButton.h */,
+				550CFE281353B48D00447BA0 /* CustomButton.m */,
+				2B76A0251353FB660043F700 /* PDColoredProgressView.h */,
+				2B76A0261353FB660043F700 /* PDColoredProgressView.m */,
+			);
+			name = "Misc Classes";
+			sourceTree = "<group>";
+		};
+		2BB5A2F0135A7A46007E0699 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2BCA074913565CA400E469F2 /* Icon.png */,
+				2B9A6037135A31380053ECAC /* logo.png */,
+				557907DC1353C31F0042C31A /* ButtonBack.png */,
+				557907DD1353C31F0042C31A /* ButtonBackHigh.png */,
+				557908031353CD180042C31A /* ButtonBackBlue.png */,
+				557908351353D2520042C31A /* ButtonBackGreen.png */,
+				557908361353D2520042C31A /* ButtonBackRed.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2BFA788B1313425A00606AD4 /* Google-Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA786F1313417200606AD4 /* GTMDefines.h */,
+				2BFA78691313415E00606AD4 /* GTMObjC2Runtime.h */,
+				2BFA786A1313415E00606AD4 /* GTMObjC2Runtime.m */,
+				2BFA786B1313415E00606AD4 /* GTMRegex.h */,
+				2BFA786C1313415E00606AD4 /* GTMRegex.m */,
+				2BFA78631313411200606AD4 /* GTMSenTestCase.h */,
+				2BFA78641313411200606AD4 /* GTMSenTestCase.m */,
+				2BFA78651313411200606AD4 /* GTMUnitTestDevLog.h */,
+				2BFA78661313411200606AD4 /* GTMUnitTestDevLog.m */,
+				2BFA785E131340DA00606AD4 /* GTMIPhoneUnitTestDelegate.h */,
+				2BFA785F131340DA00606AD4 /* GTMIPhoneUnitTestDelegate.m */,
+				2BFA7860131340DA00606AD4 /* GTMIPhoneUnitTestMain.m */,
+			);
+			name = "Google-Toolbox";
+			sourceTree = "<group>";
+		};
+		2BFA78C6131344EE00606AD4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA7A461313539D00606AD4 /* QuestionSetTests.h */,
+				2BFA7A471313539D00606AD4 /* QuestionSetTests.m */,
+				55618737134A8640006F53FE /* LogInTests.h */,
+				55618738134A8640006F53FE /* LogInTests.m */,
+				55618757134A86C2006F53FE /* RegisterUserTests.h */,
+				55618758134A86C2006F53FE /* RegisterUserTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		5508B27A13EA39B800FD1A59 /* JSON v3.0beta1 (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				5508B27D13EA39B800FD1A59 /* Classes */,
+			);
+			path = "JSON v3.0beta1 (iOS)";
+			sourceTree = "<group>";
+		};
+		5508B27D13EA39B800FD1A59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5508B27E13EA39B800FD1A59 /* JSON.h */,
+				5508B27F13EA39B800FD1A59 /* NSObject+JSON.h */,
+				5508B28013EA39B800FD1A59 /* NSObject+JSON.m */,
+				5508B28113EA39B800FD1A59 /* SBJsonParser.h */,
+				5508B28213EA39B800FD1A59 /* SBJsonParser.m */,
+				5508B28313EA39B800FD1A59 /* SBJsonStreamParser.h */,
+				5508B28413EA39B800FD1A59 /* SBJsonStreamParser.m */,
+				5508B28513EA39B800FD1A59 /* SBJsonStreamParserAdapter.h */,
+				5508B28613EA39B800FD1A59 /* SBJsonStreamParserAdapter.m */,
+				5508B28713EA39B800FD1A59 /* SBJsonStreamParserState.h */,
+				5508B28813EA39B800FD1A59 /* SBJsonStreamParserState.m */,
+				5508B28913EA39B800FD1A59 /* SBJsonStreamWriter.h */,
+				5508B28A13EA39B800FD1A59 /* SBJsonStreamWriter.m */,
+				5508B28B13EA39B800FD1A59 /* SBJsonStreamWriterState.h */,
+				5508B28C13EA39B800FD1A59 /* SBJsonStreamWriterState.m */,
+				5508B28D13EA39B800FD1A59 /* SBJsonTokeniser.h */,
+				5508B28E13EA39B800FD1A59 /* SBJsonTokeniser.m */,
+				5508B28F13EA39B800FD1A59 /* SBJsonWriter.h */,
+				5508B29013EA39B800FD1A59 /* SBJsonWriter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 1D6058910D05DD3D006BFB54 /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BFA7A9B131354D100606AD4 /* TriviaUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFA7AA1131354D200606AD4 /* Build configuration list for PBXNativeTarget "TriviaUnitTests" */;
+			buildPhases = (
+				2BFA7A98131354D100606AD4 /* Resources */,
+				2BFA7A99131354D100606AD4 /* Sources */,
+				2BFA7A9A131354D100606AD4 /* Frameworks */,
+				2BFA7AB7131354F700606AD4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriviaUnitTests;
+			productName = TriviaUnitTests;
+			productReference = 2BFA7A9C131354D100606AD4 /* TriviaUnitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iOS */,
+				2BFA7A9B131354D100606AD4 /* TriviaUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				5527C1DF1311FDB6004A6937 /* QuestionView.xib in Resources */,
+				5527C1E31311FDC1004A6937 /* MainMenuView.xib in Resources */,
+				2B045516132AC0370022945F /* RegisterView.xib in Resources */,
+				55D08411132B01F7001026DB /* SelectCategoryView.xib in Resources */,
+				55618731134A862E006F53FE /* InGameMenuView.xib in Resources */,
+				5561873D134A8648006F53FE /* LeaderboardView.xib in Resources */,
+				5561873E134A8648006F53FE /* LogInView.xib in Resources */,
+				5561874A134A8662006F53FE /* PostGameMenuView.xib in Resources */,
+				557907DE1353C31F0042C31A /* ButtonBack.png in Resources */,
+				557907DF1353C31F0042C31A /* ButtonBackHigh.png in Resources */,
+				557908041353CD180042C31A /* ButtonBackBlue.png in Resources */,
+				557908371353D2520042C31A /* ButtonBackGreen.png in Resources */,
+				557908381353D2520042C31A /* ButtonBackRed.png in Resources */,
+				2B769FDC1353F4E50043F700 /* SelectLeaderboardCategoryView.xib in Resources */,
+				2BCA074A13565CA400E469F2 /* Icon.png in Resources */,
+				2BAC65A513568DCF00F87D79 /* AddFriendsView.xib in Resources */,
+				2BB9D98013569D9C00E00849 /* RemoveFriendView.xib in Resources */,
+				2B9A6039135A31380053ECAC /* logo.png in Resources */,
+				5508B25A13EA38F900FD1A59 /* ChangePasswordView.xib in Resources */,
+				5508B25C13EA38F900FD1A59 /* ForgotPasswordView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFA7A98131354D100606AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B045514132AC0370022945F /* RegisterView.xib in Resources */,
+				55618732134A862E006F53FE /* InGameMenuView.xib in Resources */,
+				5561873F134A8648006F53FE /* LeaderboardView.xib in Resources */,
+				55618740134A8648006F53FE /* LogInView.xib in Resources */,
+				5561874B134A8662006F53FE /* PostGameMenuView.xib in Resources */,
+				557907E01353C31F0042C31A /* ButtonBack.png in Resources */,
+				557907E11353C31F0042C31A /* ButtonBackHigh.png in Resources */,
+				557908051353CD180042C31A /* ButtonBackBlue.png in Resources */,
+				557908391353D2520042C31A /* ButtonBackGreen.png in Resources */,
+				5579083A1353D2520042C31A /* ButtonBackRed.png in Resources */,
+				2B769FE21353F4E50043F700 /* SelectLeaderboardCategoryView.xib in Resources */,
+				2BCA074B13565CA400E469F2 /* Icon.png in Resources */,
+				2BAC65A713568DCF00F87D79 /* AddFriendsView.xib in Resources */,
+				2BB9D97E13569D9C00E00849 /* RemoveFriendView.xib in Resources */,
+				2B9A6038135A31380053ECAC /* logo.png in Resources */,
+				5508B25B13EA38F900FD1A59 /* ChangePasswordView.xib in Resources */,
+				5508B25D13EA38F900FD1A59 /* ForgotPasswordView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BFA7AB7131354F700606AD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Users/ryansullivan/Development/google-toolbox-for-mac-read-only/UnitTesting/RunIPhoneUnitTest.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2BFA7A2E131352DE00606AD4 /* QuestionSet.m in Sources */,
+				2BFA7A2F131352DE00606AD4 /* iOSAppDelegate.m in Sources */,
+				2BFA7A30131352DE00606AD4 /* Question.m in Sources */,
+				2BFA7A33131352DE00606AD4 /* RootViewController.m in Sources */,
+				2BFA7A35131352DE00606AD4 /* QuestionViewController.m in Sources */,
+				2B045515132AC0370022945F /* RegisterViewController.m in Sources */,
+				55D08410132B01F7001026DB /* SelectCategoryViewController.m in Sources */,
+				553114AA1345026B00EBF36D /* User.m in Sources */,
+				5561872E134A8629006F53FE /* InGameMenuViewController.m in Sources */,
+				55618743134A8650006F53FE /* LogInViewController.m in Sources */,
+				55618747134A8657006F53FE /* PostGameMenuViewController.m in Sources */,
+				5561876F134A907F006F53FE /* LeaderboardViewController.m in Sources */,
+				550CFE291353B48D00447BA0 /* CustomButton.m in Sources */,
+				2B769FD81353F4E50043F700 /* FriendsLeaderboard.m in Sources */,
+				2B769FD91353F4E50043F700 /* Leaderboard.m in Sources */,
+				2B769FDA1353F4E50043F700 /* LeaderboardEntry.m in Sources */,
+				2B769FDB1353F4E50043F700 /* LeaderboardJSON.m in Sources */,
+				2B769FDD1353F4E50043F700 /* SelectLeaderboardCategoryViewController.m in Sources */,
+				2B76A0271353FB660043F700 /* PDColoredProgressView.m in Sources */,
+				2BAC65A413568DCF00F87D79 /* AddFriendsViewController.m in Sources */,
+				2BB9D97F13569D9C00E00849 /* RemoveFriendViewController.m in Sources */,
+				2BDD0167135D4DD500CFD874 /* ForgotPasswordViewController.m in Sources */,
+				2B6815BC135DEC08007FBFCC /* ChangePasswordViewController.m in Sources */,
+				5508B3A613EA39B900FD1A59 /* NSObject+JSON.m in Sources */,
+				5508B3A813EA39B900FD1A59 /* SBJsonParser.m in Sources */,
+				5508B3AA13EA39B900FD1A59 /* SBJsonStreamParser.m in Sources */,
+				5508B3AC13EA39B900FD1A59 /* SBJsonStreamParserAdapter.m in Sources */,
+				5508B3AE13EA39B900FD1A59 /* SBJsonStreamParserState.m in Sources */,
+				5508B3B013EA39B900FD1A59 /* SBJsonStreamWriter.m in Sources */,
+				5508B3B213EA39B900FD1A59 /* SBJsonStreamWriterState.m in Sources */,
+				5508B3B413EA39B900FD1A59 /* SBJsonTokeniser.m in Sources */,
+				5508B3B613EA39B900FD1A59 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFA7A99131354D100606AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFA7AA2131354EA00606AD4 /* GTMSenTestCase.m in Sources */,
+				2BFA7AA3131354EA00606AD4 /* GTMUnitTestDevLog.m in Sources */,
+				2BFA7AA4131354EA00606AD4 /* GTMObjC2Runtime.m in Sources */,
+				2BFA7AA5131354EA00606AD4 /* GTMRegex.m in Sources */,
+				2BFA7AA6131354EA00606AD4 /* GTMIPhoneUnitTestDelegate.m in Sources */,
+				2BFA7AA7131354EA00606AD4 /* GTMIPhoneUnitTestMain.m in Sources */,
+				553114AB1345026B00EBF36D /* User.m in Sources */,
+				5561878F134A9187006F53FE /* QuestionSetTests.m in Sources */,
+				55618790134A9187006F53FE /* LogInTests.m in Sources */,
+				55618791134A9187006F53FE /* RegisterUserTests.m in Sources */,
+				55618795134A9198006F53FE /* QuestionSet.m in Sources */,
+				55618796134A9198006F53FE /* iOSAppDelegate.m in Sources */,
+				55618797134A9198006F53FE /* Question.m in Sources */,
+				55618798134A9198006F53FE /* InGameMenuViewController.m in Sources */,
+				55618799134A9198006F53FE /* LeaderboardViewController.m in Sources */,
+				5561879A134A9198006F53FE /* RegisterViewController.m in Sources */,
+				5561879B134A9198006F53FE /* QuestionViewController.m in Sources */,
+				5561879C134A9198006F53FE /* PostGameMenuViewController.m in Sources */,
+				5561879D134A9198006F53FE /* LogInViewController.m in Sources */,
+				5561879E134A9198006F53FE /* RootViewController.m in Sources */,
+				5561879F134A9198006F53FE /* SelectCategoryViewController.m in Sources */,
+				550CFE2A1353B48D00447BA0 /* CustomButton.m in Sources */,
+				2B769FDE1353F4E50043F700 /* FriendsLeaderboard.m in Sources */,
+				2B769FDF1353F4E50043F700 /* Leaderboard.m in Sources */,
+				2B769FE01353F4E50043F700 /* LeaderboardEntry.m in Sources */,
+				2B769FE11353F4E50043F700 /* LeaderboardJSON.m in Sources */,
+				2B769FE31353F4E50043F700 /* SelectLeaderboardCategoryViewController.m in Sources */,
+				2BAC65A613568DCF00F87D79 /* AddFriendsViewController.m in Sources */,
+				2BB9D97D13569D9C00E00849 /* RemoveFriendViewController.m in Sources */,
+				2BDD0166135D4DD500CFD874 /* ForgotPasswordViewController.m in Sources */,
+				2B6815BB135DEC08007FBFCC /* ChangePasswordViewController.m in Sources */,
+				5508B3A713EA39B900FD1A59 /* NSObject+JSON.m in Sources */,
+				5508B3A913EA39B900FD1A59 /* SBJsonParser.m in Sources */,
+				5508B3AB13EA39B900FD1A59 /* SBJsonStreamParser.m in Sources */,
+				5508B3AD13EA39B900FD1A59 /* SBJsonStreamParserAdapter.m in Sources */,
+				5508B3AF13EA39B900FD1A59 /* SBJsonStreamParserState.m in Sources */,
+				5508B3B113EA39B900FD1A59 /* SBJsonStreamWriter.m in Sources */,
+				5508B3B313EA39B900FD1A59 /* SBJsonStreamWriterState.m in Sources */,
+				5508B3B513EA39B900FD1A59 /* SBJsonTokeniser.m in Sources */,
+				5508B3B713EA39B900FD1A59 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Henke (9Q79995NDM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Henke (9Q79995NDM)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/tmp/JSON.dst/usr/local/include/**";
+				INFOPLIST_FILE = "iOS-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = iOS;
+				PROVISIONING_PROFILE = "0B8366DC-E88A-4702-8166-0E122C799BC0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0B8366DC-E88A-4702-8166-0E122C799BC0";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Henke (9Q79995NDM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Henke (9Q79995NDM)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_Prefix.pch;
+				INFOPLIST_FILE = "iOS-Info.plist";
+				PRODUCT_NAME = iOS;
+				PROVISIONING_PROFILE = "0B8366DC-E88A-4702-8166-0E122C799BC0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0B8366DC-E88A-4702-8166-0E122C799BC0";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BFA7A9F131354D200606AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Development/iOS/iOS/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "TriviaUnitTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = TriviaUnitTests;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BFA7AA0131354D200606AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Development/iOS/iOS/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "TriviaUnitTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = TriviaUnitTests;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = dlist.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: John Sullivan";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: John Sullivan";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "DB2282BC-DA48-4A94-9386-760D6D727E0E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DB2282BC-DA48-4A94-9386-760D6D727E0E";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFA7AA1131354D200606AD4 /* Build configuration list for PBXNativeTarget "TriviaUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFA7A9F131354D200606AD4 /* Debug */,
+				2BFA7AA0131354D200606AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

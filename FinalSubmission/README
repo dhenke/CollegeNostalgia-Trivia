@@ -1,0 +1,21 @@
+Triviarea
+
+Members
+-------------------
+David Henke (henke2)
+Neeraj Ramesh (nramesh2)
+Tom Rudwick (rudwick2)
+Ryan Sullivan (rsulliv7)
+Anthony Chan (aychan3)
+Sam Smith (smith137)
+Chad Schwab (schwab2)
+-------------------
+
+Version 1.0
+-------------------
+Triviarea is a server driven trivia game for the Android and iOS platforms.
+It includes friends-list and leaderboard functionality.
+
+PHPServer - Runs on a LAMP Server and acts as the Questions and Users server
+Android - Android code including Unit Tests
+iOS - iPhone code including Unit Tests. Packages are virtual (in the xcode project file).

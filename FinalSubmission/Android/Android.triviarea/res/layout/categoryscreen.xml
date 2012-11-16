@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<!-- title -->
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:orientation="horizontal" 
+		android:layout_height="wrap_content">
+		
+		<TextView 
+			android:text="Categories" 
+			android:layout_weight="1"
+			android:gravity="center" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="25dip" />
+
+
+	</LinearLayout>
+
+	<!-- all buttons -->
+	<LinearLayout 
+		android:layout_height="fill_parent"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent">
+
+		<!-- left buttons -->
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:orientation="vertical" 
+			android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<Button 
+				android:text="Literature" 
+				android:layout_gravity="center"
+				android:layout_width="fill_parent" 
+				android:layout_weight="1"
+				android:layout_height="fill_parent" 
+				android:id="@+id/lit_category"
+				android:enabled="false">
+
+			</Button>
+
+			<Button 
+				android:text="Video Games"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:enabled="false" android:id="@+id/video_games_category">
+
+			</Button>
+
+			<Button 
+				android:id="@+id/history_category" 
+				android:text="History"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:enabled="false">
+
+			</Button>
+
+			<Button 
+				android:text="Science &amp; \n Technology" 
+				android:layout_gravity="center"
+				android:layout_width="fill_parent" 
+				android:layout_weight="1"
+				android:layout_height="fill_parent" 
+				android:enabled="false" android:id="@+id/sci_tech_category">
+
+			</Button>
+
+			<Button 
+				android:id="@+id/geography_category" 
+				android:text="Geography"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:enabled="false">
+
+			</Button>
+		</LinearLayout>
+
+		<!-- right buttons -->
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:orientation="vertical" 
+			android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<Button 
+				android:id="@+id/sports_category" 
+				android:text="Sports"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:enabled="false">
+
+			</Button>
+
+
+
+			<Button 
+				android:id="@+id/movies_category" 
+				android:text="Movies"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:enabled="false">
+
+			</Button>
+
+			<Button 
+				android:id="@+id/television_category" 
+				android:text="Television"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:enabled="false">
+
+			</Button>
+
+			<Button 
+				android:id="@+id/music_category" 
+				android:text="Music"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:enabled="false">
+
+			</Button>
+
+			<Button 
+				android:id="@+id/misc_category" 
+				android:text="Miscellaneous"
+				android:layout_gravity="center" 
+				android:layout_width="fill_parent"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent">
+			</Button>
+
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+</LinearLayout>

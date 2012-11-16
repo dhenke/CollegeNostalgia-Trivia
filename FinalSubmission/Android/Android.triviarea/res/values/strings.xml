@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">This is Triviarea!</string>
+    <string name="app_name">Triviarea</string>
+    <string name="leaderboard_url">http://triviarea.projects.cs.illinois.edu/retrieveLeaderboard.php</string>    	
+	<string name="login_fail_not_found">login failed with current username and password</string>
+	<string name="login_fail_incorrect_input">Username or password formatted incorrectly. only numbers, letters, and underscore accepted.</string>
+	<string name="register_success">Registration successful</string>
+	<string name="register_fail_at_server">Username or email already in use or no internet connection</string>
+	<string name="user_password_regEX">^[\\S]{5,}$</string>
+	<string name="user_login_url">http://triviarea.projects.cs.illinois.edu/appLogin.php</string>
+	<string name="user_register_url">http://triviarea.projects.cs.illinois.edu/register.php</string>
+	<string name="user_friend_url">http://triviarea.projects.cs.illinois.edu/friends.php</string>
+	<string name="user_unregister_url">http://triviarea.projects.cs.illinois.edu/unregister.php</string>
+	<string name="categories_url">http://triviarea.projects.cs.illinois.edu/retrieveCatNotPlayed.php</string>
+	<string name="user_username_regEX">\\w+</string>
+	<string name="user_email_regEX">^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,4}$</string>
+	<string name="user_file">userInfo</string>
+	<string name="password_change_url">http://triviarea.projects.cs.illinois.edu/changePassword.php</string>
+</resources>

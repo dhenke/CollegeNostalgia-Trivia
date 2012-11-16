@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<!-- Logo Section -->
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:layout_weight="1">
+
+		<ImageView android:src="@drawable/icon"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<!-- Title Section -->
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1">
+
+		<TextView android:layout_width="fill_parent" android:text="Welcome\n to Triviarea."
+			android:textSize="32px" android:layout_height="fill_parent"
+			android:gravity="center" />
+
+	</LinearLayout>
+
+	<!-- Login Button Section -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+
+			<Button android:text="Register" android:id="@+id/Login_Register_Button"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:layout_width="fill_parent">
+			</Button>
+
+
+
+
+
+
+
+
+
+
+
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:layout_height="fill_parent">
+		</LinearLayout>
+	</LinearLayout>
+
+	<!-- Login Text/Field Section -->
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_weight=".2">
+
+		<!-- Username Section -->
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:orientation="horizontal" android:layout_weight="1"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:layout_marginLeft="12dip" android:layout_marginRight="12dip">
+
+			<TextView android:text="Username" android:textSize="18px"
+				android:layout_height="wrap_content" android:gravity="left"
+				android:layout_weight="1" android:layout_width="fill_parent" />
+
+			<EditText android:id="@+id/Login_User_EditText"
+				android:lines="1" android:layout_height="wrap_content"
+				android:gravity="left" android:layout_width="fill_parent"
+				android:singleLine="true" android:layout_weight=".5" />
+
+		</LinearLayout>
+
+		<!-- Password Section -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="1" android:layout_gravity="center"
+			android:layout_marginLeft="12dip" android:layout_marginRight="12dip">
+
+			<TextView android:text="Password" android:textSize="18px"
+				android:layout_height="wrap_content" android:gravity="left"
+				android:layout_weight=".67" android:layout_width="fill_parent" />
+
+			<EditText android:id="@+id/Login_Password_EditText"
+				android:lines="1" android:password="true" android:layout_height="wrap_content"
+				android:gravity="left" android:singleLine="true"
+				android:layout_weight=".5" android:layout_width="fill_parent" />
+
+			<Button android:text="\?" android:layout_height="wrap_content"
+				android:gravity="center" android:layout_weight=".85"
+				android:layout_width="fill_parent" android:id="@+id/forgotpassword">
+
+			</Button>
+		</LinearLayout>
+	</LinearLayout>
+
+	<!-- Register Button -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_height="wrap_content" android:layout_weight=".6"
+		android:layout_width="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_weight=".6" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="wrap_content" android:layout_weight=".6"
+			android:layout_width="fill_parent">
+			<Button android:id="@+id/Login_Login_Button"
+				android:layout_gravity="center" android:layout_height="wrap_content"
+				android:text="Login" android:gravity="center" android:layout_width="fill_parent">
+
+			</Button>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_weight=".6" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
